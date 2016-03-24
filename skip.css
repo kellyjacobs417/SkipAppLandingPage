@@ -3,34 +3,67 @@ margin: 0px;
 padding: 0px;
 border: 0px;
 }
+p {
+font-family: aileron-light;
+font-size: 23px;
+color: #2D2D2D;
+letter-spacing: 1.32px;
+line-height: 35px;
+text-align: center;
+}
 
-h1 {
-color: rgb(231,228,211);
+h1{
+text-align: center;
+font-family: 'Yeseva One', cursive;
+font-size: 40px;
+}
+
+.button {
+font-family: aileron;
+font-size: 16px;
+color: #E7E4D3;
+letter-spacing: .7px;
+line-height: 29px;
+margin-left: auto;
+margin-right: auto;
+border: 3px solid #E7E4D3;
+border-radius: 8px;
+text-decoration: none;
+padding: 10px;
+text-transform: uppercase;
 }
 
 .navbar {
 background-color: white;
-height: 110px;
+height: 100px;
+width: 100%;
+position:fixed;
+z-index:1;
 }
 
 .navbar img{
-margin: 20px 50px;
+margin-top: 20px;
+margin-left: 50px;
 }
 
 .pull-right{
-float: right;
-vertical-align: middle;
-margin: 50px 50px;
+position: absolute;
+right: 0px;
+top: 45px;
+margin-right: 50px;
 }
 
 .navbar li {
+font-family: aileron-light;
+font-size: 17px;
+color: #2D2D2D;
 display: inline;
 text-transform: uppercase;
 margin-left: 20px;
 }
 
 .jumbotron {
-height: 590px;
+height: 600px;
 background-image: url('images/raspberries2.jpeg');
 background-size: cover;
 -webkit-filter: opacity(.9);
@@ -39,18 +72,185 @@ background-size: cover;
 filter: hue(1.1);
 -webkit-filter: saturation (1.3);
 filter: saturation(1.3);
-position:relative;
+text-align: center;
+padding-top: 100px;
 }
 
-.container {
-position: absolute;
+#second-jumbotron {
+  background-image: url('images/baby.png')
+  height: 600px;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  z-index: 1;
+}
+
+.jumbotron h1{
+padding-top: 200px;
+padding-bottom: 120px;
+font-family: 'Yeseva One', cursive;
+font-size: 60px;
+color: #E7E4D3;
+letter-spacing: 2px;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.app-description {
+height: 200px;
+padding-top: 30px;
+}
+
+.app-description img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.app-description p{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.feature-nav{
+background-color: #D9D9D9;
+height: 180px;
 width: 100%;
+display: flex;
+}
+
+#small-cart, #small-reorder, #small-checkmark{
+width: 33%;
+margin: auto;
 text-align: center;
-padding-top: 265px;
+}
+.feature-nav img{
+margin: 0 auto;
+text-align: center;
+}
+
+.h2-wide{
+text-align: center;
+font-family: 'Yeseva One', cursive;
+font-size: 40px;
+color: #2D2D2D;
+position: relative;
+padding-top: 50px;
+}
+
+.p-wide{
+text-align: center;
+width: 65%;
+font-size: 23px;
+color: #2D2D2D;
+letter-spacing: 1.32px;
+line-height: 35px;
+display: block;
+margin: 0 auto;
+padding-top: 27px;
+}
+.featurelight {
+height: 600px;
+background-color: #E7E4D3;
+}
+
+.featuredark {
+height: 600px;
+background-color: #015270;
+}
+.featuredark h2 {
+color: #E7E4D3;
+}
+
+.featuredark p {
+color: #E7E4D3;
+}
+.narrow {
+height: 500px;
+width: 40%;
+position: absolute;
+margin-top: -17px;
+}
+
+.wide {
+height: 500px;
+width: 60%;
+position: absolute;
+right: 0;
+margin-top: 50px;
+padding-right: 47px;
+}
+
+.wide-dark {
+height: 500px;
+width: 60%;
+position: absolute;
+left: 0;
+margin-top: 50px;
+padding-left: 47px;
+}
+
+.narrow-dark {
+height: 500px;
+width: 40%;
+position: absolute;
+margin-top: -17px;
+right: 0;
+}
+
+.feature-icon {
+text-align: center;
+display: block;
+margin: auto;
+width: 17%;
+padding-top: 55px;
+}
+
+.iphone-light {
+position: absolute;
+right: 0;
+top: -10;
+padding-top: -10px;
+height: 127%;
+}
+
+.iphone-dark {
+position: absolute;
+left: 0;
+top: -10;
+padding-top: -10px;
+height: 127%;
+}
+.small-banner {
+background-image: url('images/foodonthetable.png');
+background-size: 90%;
+background-size: cover;
+text-align: center;
+height: 325px;
+}
+
+.small-banner h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 60px;
+  color: #E7E4D3;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  }
+
 }
 
 //
-font-family: 'Cookie', cursive;
+/*/* Skip all the store h: */
+font-family: Aileron-Light;
+font-size: 20px;
+color: #2D2D2D;
+letter-spacing: 1.07px;
+line-height: 29px;*/
+/*font-family: 'Cookie', cursive;
 Arvo Normal 400
 font-family: 'Lobster', cursive;
 /* DOWNLOAD THIS APP: */
@@ -70,4 +270,4 @@ opacity: 0.77;
 font-family: Lobster-Regular;
 font-size: 65px;
 color: #E7E4D3;
-letter-spacing: 2.16px;
+letter-spacing: 2.16px;*/

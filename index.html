@@ -2,7 +2,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="skip.css">
-<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
 <title>skip app</title>
 </head>
 
@@ -15,50 +15,52 @@
        <img src="images/skiplogo.png" width="10%">
   </div>
   <div class="jumbotron">
-      <div class="container">
-        <h1>Get back to the sweeter things in life</h1>
-        <p class="button"><a href="#">download this app</a></p>
-      </div>
+        <h1>Get back to the <br> sweeter things in life.</h1>
+        <a class="button" href="#" onclick="toggle_visibility('second-jumbotron');">download this app</a>
     </div>
   <div class="app-description">
     <img src="images/skiplogo.png">
     <p>Skip all the store hassle and order your groceries for pick-up so you can make time to do the things you would rather be doing.</p>
   </div>
   <div class="feature-nav">
-    <img src="images/cart_small.png">
-    <img src="images/reorder_small.png">
-    <img src="images/checkmark_small.png">
-  </div>
-  <div class="featurelight">
-    <div class="narrow">
-      <div class="iphone">
-      </div>
+    <div id="small-cart">
+      <img src="images/cart_small.png">
     </div>
-    <div class="wide">
-      <img src="images/cart_large.png">
-      <h2>Shop By Search & Scan</h2>
-      <p>Create custom grocery lists by searching for items within the app or scanning the QR code of items on the shelf.</p>
+    <div id="small-reorder">
+      <img src="images/reorder_small.png">
     </div>
-  </div>
-  <div class="featuredark"
-    <div class="wide">
-      <img src="images/reorder_large.png">
-      <h2>Rapid Reorder</h2>
-      <p class="feature-description">Easily re-order your typical grocery list in just a few clicks.</p>
-    </div>
-    <div class="narrow">
-      <div class="iphone"></div>
+    <div id="small-checkmark">
+      <img src="images/checkmark_small.png">
     </div>
   </div>
   <div class="featurelight">
     <div class="narrow">
-      <div class="iphone">
-      </div>
+      <img class="iphone-light" src="images/iphone_handdrawn_white.png">
     </div>
     <div class="wide">
-      <img src="images/checkmark_large.png">
-      <h2>Easy Pay & Pickup</h2>
-      <p>Select a day and time for pickup and quickly pay for your groceries to complete your order.</p>
+      <img class="feature-icon" src="images/cart_large.png">
+      <h2 class="h2-wide">Shop By Search & Scan</h2>
+      <p class="p-wide">Simply search for items in the app or scan QR codes of items on the shelf to create custom grocery lists.</p>
+    </div>
+  </div>
+  <div class="featuredark">
+    <div class="wide-dark">
+      <img class="feature-icon" src="images/reorder_large.png">
+      <h2 class="h2-wide">Rapid Reorder</h2>
+      <p class="p-wide">Easily re-order your typical grocery list in just a few clicks.</p>
+    </div>
+    <div class="narrow-dark">
+      <img class="iphone-dark" src="images/iphone_handdrawn_white.png">
+    </div>
+  </div>
+  <div class="featurelight">
+    <div class="narrow">
+      <img class="iphone-light" src="images/iphone_handdrawn_white.png">
+    </div>
+    <div class="wide">
+      <img class="feature-icon" src="images/cart_large.png">
+      <h2 class="h2-wide">Easy Pay & Pickup</h2>
+      <p class="p-wide">Select a day and time for pickup and quickly pay for your groceries to complete your order.</p>
     </div>
   </div>
   <div class="small-banner">
