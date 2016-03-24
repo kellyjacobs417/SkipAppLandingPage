@@ -18,6 +18,12 @@ font-family: 'Yeseva One', cursive;
 font-size: 40px;
 }
 
+h2{
+text-align: center;
+font-family: Aileron-Bold;
+font-size: 36px;
+}
+
 .button {
 font-family: aileron;
 font-size: 16px;
@@ -228,7 +234,7 @@ background-image: url('images/foodonthetable.png');
 background-size: 90%;
 background-size: cover;
 text-align: center;
-height: 325px;
+height: 315px;
 }
 
 .small-banner h1 {
@@ -241,7 +247,68 @@ height: 325px;
   padding-top: 120px;
   }
 
+.white-small-box{
+height: 315px;
+overflow: hidden;
 }
+
+.header-left{
+width: 12%;
+font-family: "Aileron-Bold";
+font-size: 36px;
+color: #2D2D2D;
+letter-spacing: 1.58px;
+position: relative;
+margin-left: 354px;
+margin-top: 66px;
+}
+
+.header-right{
+width: 22%;
+font-family: "Aileron-Bold";
+font-size: 36px;
+color: #2D2D2D;
+letter-spacing: 1.58px;
+position: relative;
+margin-left: 689px;
+margin-top: -61px;
+}
+
+img.white-box-logo{
+width: 14%;
+position: relative;
+left: 518px;
+margin-top: -87px;
+}
+
+.participating-stores{
+width: 100%;
+display: flex;
+margin-top: 70px;
+}
+
+#trader-joes, #safeway, #food-lion {
+width: 33%;
+margin: auto;
+text-align: center;
+}
+.blue-small-box{
+height: 300px;
+background: #015270;
+text-align: center;
+}
+
+.blue-small-box h2{
+color: #E7E4D3;
+padding-top: 66px;
+}
+
+.blue-small-box p{
+  color: #E7E4D3;
+  padding-top: 27px;
+  padding-bottom: 65px;  
+}
+/* Rectangle 4 Copy 5: */
 
 //
 /*/* Skip all the store h: */
