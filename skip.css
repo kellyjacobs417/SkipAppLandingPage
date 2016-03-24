@@ -40,7 +40,7 @@ text-transform: uppercase;
 }
 
 .navbar {
-background-color: white;
+background-color: rgba(255 ,255,255,0.9);
 height: 100px;
 width: 100%;
 position:fixed;
@@ -48,7 +48,8 @@ z-index:1;
 }
 
 .navbar img{
-margin-top: 20px;
+width: 11%;
+margin-top: 10px;
 margin-left: 50px;
 }
 
@@ -104,7 +105,7 @@ margin-right: auto;
 }
 
 .app-description {
-height: 200px;
+height: 250px;
 padding-top: 30px;
 }
 
@@ -112,12 +113,14 @@ padding-top: 30px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+width: 17%;
 }
 
 .app-description p{
 width: 800px;
 margin-left: auto;
 margin-right: auto;
+padding-top: 27px;
 }
 
 .feature-nav{
@@ -306,7 +309,7 @@ padding-top: 66px;
 .blue-small-box p{
   color: #E7E4D3;
   padding-top: 27px;
-  padding-bottom: 65px;  
+  padding-bottom: 65px;
 }
 /* Rectangle 4 Copy 5: */
 
