@@ -39,12 +39,16 @@ padding: 10px;
 text-transform: uppercase;
 }
 
+.button:hover {
+  font-family: Aileron-Bold;
+}
+
 .navbar {
 background-color: rgba(255 ,255,255,0.9);
 height: 100px;
 width: 100%;
 position:fixed;
-z-index:1;
+z-index:2;
 }
 
 .navbar img{
@@ -183,6 +187,21 @@ position: absolute;
 margin-top: -17px;
 }
 
+.dark-demo{
+position: relative;
+z-index: 1;
+width: 43%;
+margin-top: 68px;
+margin-left: 50px;
+}
+.light-demo{
+position: relative;
+z-index: 1;
+width: 43%;
+margin-top: 66px;
+margin-left: 237px;
+}
+
 .wide {
 height: 500px;
 width: 60%;
@@ -237,7 +256,7 @@ background-image: url('images/foodonthetable.png');
 background-size: 90%;
 background-size: cover;
 text-align: center;
-height: 315px;
+height: 295px;
 }
 
 .small-banner h1 {
@@ -247,11 +266,11 @@ height: 315px;
   letter-spacing: 2px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
+  padding-top: 110px;
   }
 
 .white-small-box{
-height: 315px;
+height: 300px;
 overflow: hidden;
 }
 
@@ -287,7 +306,7 @@ margin-top: -87px;
 .participating-stores{
 width: 100%;
 display: flex;
-margin-top: 70px;
+margin-top: 55px;
 }
 
 #trader-joes, #safeway, #food-lion {
@@ -309,7 +328,7 @@ padding-top: 66px;
 .blue-small-box p{
   color: #E7E4D3;
   padding-top: 27px;
-  padding-bottom: 65px;
+  padding-bottom: 45px;
 }
 /* Rectangle 4 Copy 5: */
 
