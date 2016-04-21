@@ -270,7 +270,8 @@ overflow: hidden;
 
 .header-left{
 width: 12%;
-font-family: "Aileron-Bold";
+font-family: 'Open Sans';
+font-weight: 700;
 font-size: 36px;
 color: #2D2D2D;
 letter-spacing: 1.58px;
@@ -281,7 +282,8 @@ margin-top: 66px;
 
 .header-right{
 width: 22%;
-font-family: "Aileron-Bold";
+font-family: 'Open Sans';
+font-weight: 700;
 font-size: 36px;
 color: #2D2D2D;
 letter-spacing: 1.58px;
